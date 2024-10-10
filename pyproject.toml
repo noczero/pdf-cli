@@ -1,0 +1,18 @@
+[project]
+name = "pdf-cli"
+version = "0.1.0"
+description = "Manipulate PDF document"
+authors = [
+    {name = "noczero",email = "satrya@zeroinside.id"}
+]
+license = {text = "MIT"}
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "pikepdf (>=9.3.0,<10.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
